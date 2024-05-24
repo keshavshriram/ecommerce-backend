@@ -1,14 +1,10 @@
 {
-  "name": "json-server",
+  "name": "json-server-vercel",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server --watch db.json --port 8080"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "json-server": "^0.16.3"
   }
